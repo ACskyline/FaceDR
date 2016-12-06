@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/haar_support">
+        <file>haar_support/haarcascade_frontalface_alt.xml</file>
+        <file>haar_support/haarcascade_mcs_eyepair_small.xml</file>
+        <file>haar_support/haarcascade_mcs_nose.xml</file>
+    </qresource>
+</RCC>
