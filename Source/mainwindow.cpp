@@ -66,8 +66,13 @@ void MainWindow::capture_done()
 
 void MainWindow::capture_allDone()
 {
-    ui->captureButton->setText("Snap");
+    capturing = false;
     ui->resultTextBrowser->append("All done!");
+    ui->captureButton->setText("Snap");
+    ui->matchRealTimeButton->setEnabled(true);
+    ui->addTrainPictureButton->setEnabled(true);
+    ui->clearTrainButton->setEnabled(true);
+    ui->matchPictureButton->setEnabled(true);
 }
 
 void MainWindow::match_done()
