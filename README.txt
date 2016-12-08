@@ -6,3 +6,5 @@ The function of this demo is to identify the most alike picture, from a large nu
 Therefore it can be used to match human faces, but the result may not be ideal.
 
 It can only run on Windows and it is highly recommended to run it with a camera on your PC.
+
+Here is the Youtube link: https://www.youtube.com/watch?v=3roIzh080wc
